@@ -1,0 +1,153 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.site {
+	background-image: url("Images/wallpaperflare.com_wallpaper (8).jpg");
+	position: fixed;
+	background-size: cover;
+	background-position: center;
+	width: 100vw;
+	height: 100vh;
+	z-index: -1;
+}
+
+.page {
+	width: 70vw;
+	margin: auto;
+}
+
+nav {
+	position: fixed;
+	display: flex;
+	width: 100vw;
+	height: 50px;
+	text-align: center;
+	background-color: #283991;
+	border-bottom: solid 1px black;
+	color: #EDB9FA;
+	z-index: 1;
+}
+
+nav .page {
+	display: flex;
+	justify-content: space-around;
+}
+
+header {
+	width: 100vw;
+	height: 100vh;
+	background-size: cover;
+	background-position: bottom;
+	background-image: url("Images/Background_Header.png");
+}
+
+main {
+	height: auto;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.card {
+	border-top-right-radius: 200px;
+	border-top-left-radius: 200px;
+	width: 200px;
+	margin: 25px;
+}
+
+.card img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+footer {
+	width: 100vw;
+	height: 400px;
+	background-image: url("Images/Footer_Background.jpg");
+	background-size: cover;
+	background-position: left;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.footer_info {
+	background-color: #41132F;
+	color: white;
+	padding: 50px;
+	border-radius: 50px;
+	border: solid 2px black;
+	height: 300px;
+	width: 300px;
+	margin-right: 50px;
+}
+
+.up {
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+
+}
+
+.up img {
+	width: 100px;
+}
+
+.login {
+	height: 100vh;
+	align-items: center;
+}
+
+.login_bar {
+	border-radius: 20px;
+	padding: 20px;
+	background-color: rgba(110, 90, 90, 0.8);
+}
+
+.form-text {
+	color: black;
+}
+
+.gallery {
+	width: 400px;
+	height: 300px;
+
+}
+
+.gallery img {
+	width: 400px;
+	height: 300px;
+	object-fit: cover;
+	object-position: center;
+	transition: 1s;
+}
+
+.gallery img:hover {
+	transform: scale(1.5);
+}
+
+.main_gallery {
+	padding: 20px 0;
+	justify-content: center;
+}
+
+.page_5 {
+	background-image: url("Images/template-7.jpg");
+	background-position: center;
+}
+
+.page_5 img {
+    position:absolute;
+    width:100%;
+    bottom:0;
+    text-align:center;
+}
